@@ -10,7 +10,13 @@
 //
 //
 // -- This is a parent command --
-// Cypress.Commands.add('login', (email, password) => { ... })
+Cypress.Commands.add('Cadastrar', (nome,email,password,confirmpassword) => { 
+    cy.get('input[name="nome"]').type(nome)
+    cy.get('input[name="email"]').type(email)
+    cy.get('input[name="password"]').type(password)
+    cy.get('input[name="confirm_password"]').type(confirmpassword)
+    cy.contains('button','Cadastrar').click();
+ })
 //
 //
 // -- This is a child command --

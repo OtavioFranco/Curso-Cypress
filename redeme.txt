@@ -5,3 +5,7 @@ npm install cypress@13.6.4 --save -dev
 
 Criando teste em new aspec
 Nessa area podemos criar um caso de teste, ao finalizar abrir no visual studio para editar esse teste
+
+cypress cloud
+    acessar pagina cypres > cypress cloud > realizar cadastro
+    
